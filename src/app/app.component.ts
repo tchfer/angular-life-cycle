@@ -10,7 +10,7 @@ import { Item } from './interfaces/iItem';
 })
 export class AppComponent implements OnInit {
   title = 'app-lista-de-compras';
-  listaDeCompra!: Array<Item>
+  listaDeCompra!: Array<Item>;
   itemParaSerEditado!: Item;
 
   constructor(
