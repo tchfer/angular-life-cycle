@@ -5,14 +5,16 @@
 }
 
 .container {
-  max-width: 328px;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .lista {
   background: white;
   padding: 1rem;
-  width: 328px;
+  width: 80%;
 }
 
 .lista h4 {
